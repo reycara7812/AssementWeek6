@@ -12,7 +12,7 @@ public class VehicleApp {
          */
         public void printListOfVehiclesNames(ArrayList<Vehicle> vehicles) {
             for (Vehicle vehicle : vehicles) {
-                System.out.println("Vehicle Name: " + vehicle.getName());
+                System.out.println(vehicle.getName());
             }
         }
 
@@ -26,7 +26,7 @@ public class VehicleApp {
 
     public void printListOfFlyableObjects(ArrayList<Flyable> flyables) {
         for (Flyable flyable : flyables) {
-            System.out.println("Flyable Object: " + flyable.getClass());
+            System.out.println("Flyable Object: " + flyable.getClass(Plane));
         }
     }
 
